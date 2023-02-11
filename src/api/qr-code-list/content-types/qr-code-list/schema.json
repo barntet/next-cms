@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "qr_code_lists",
+  "info": {
+    "singularName": "qr-code-list",
+    "pluralName": "qr-code-lists",
+    "displayName": "qrCodeList",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "qrCodes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::qr-code.qr-code"
+    }
+  }
+}
